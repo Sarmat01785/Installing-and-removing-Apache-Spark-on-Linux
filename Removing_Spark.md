@@ -1,4 +1,4 @@
-# Удаление `Apache Spark` с ALT Workstation K 10.4 (Sorbaronia Mitschurinii)
+# Удаление `Apache Spark` с ALT Linux
 
 ## Шаг 1: Удаление директории `Spark`
 
@@ -19,7 +19,7 @@ sudo rm -rf /opt/spark
 Откройте файл `.bashrc` в текстовом редакторе:
 
 ```bash
-KWrite ~/.bashrc
+kwrite ~/.bashrc
 ```
 
 Найдите и удалите или закомментируйте следующие строки:
